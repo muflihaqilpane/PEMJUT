@@ -8,7 +8,7 @@ class InvalidAgeException extends Exception {
 
 public class AgeValidationGroup {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);//aqil
         String[] nama = {"Adi", "Budi", "Cahyo", "Diana", "Eva"};
         for (String orang : nama) {
             System.out.print("Masukkan usia " + orang + ": ");
