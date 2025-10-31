@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class MainApp {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);//aqil
         ArrayList<DeadlineReminder> tasks = new ArrayList<>();
 
         System.out.print("Masukkan jumlah tugas: ");
